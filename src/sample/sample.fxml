@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <left>
+        <VBox prefHeight="700.0" prefWidth="300.0" spacing="25.0" BorderPane.alignment="CENTER">
+            <children>
+                <Pane prefHeight="200.0" prefWidth="260.0">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                    <children>
+                        <VBox prefHeight="200.0" prefWidth="40.0" />
+                        <VBox layoutX="40.0" prefHeight="200.0" prefWidth="80.0">
+                            <children>
+                                <Button mnemonicParsing="false" prefHeight="180.0" prefWidth="80.0" text="Player1" />
+                                <Slider prefHeight="20.0" prefWidth="80.0" />
+                            </children>
+                        </VBox>
+                        <VBox layoutX="120.0" layoutY="60.0" prefHeight="140.0" prefWidth="140.0">
+                            <children>
+                                <HBox prefHeight="70.0" prefWidth="140.0">
+                                    <children>
+                                        <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Ability1" />
+                                        <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Ability2" />
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="70.0" prefWidth="140.0">
+                                    <children>
+                                        <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Ability3" />
+                                        <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Ability4" />
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </children>
+                </Pane>
+                <Pane prefHeight="200.0" prefWidth="260.0">
+                    <children>
+                        <VBox prefHeight="200.0" prefWidth="40.0" />
+                        <VBox layoutX="40.0" prefHeight="200.0" prefWidth="80.0">
+                            <children>
+                                <Button mnemonicParsing="false" prefHeight="180.0" prefWidth="80.0" text="Player2" />
+                                <Slider prefHeight="20.0" prefWidth="80.0" />
+                            </children>
+                        </VBox>
+                        <VBox layoutX="120.0" layoutY="60.0" prefHeight="140.0" prefWidth="140.0">
+                            <children>
+                                <HBox prefHeight="70.0" prefWidth="140.0">
+                                    <children>
+                                        <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Ability1" />
+                                        <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Ability2" />
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="70.0" prefWidth="140.0">
+                                    <children>
+                                        <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Ability3" />
+                                        <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Ability4" />
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </children>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </Pane>
+                <Pane prefHeight="200.0" prefWidth="260.0">
+                    <children>
+                        <VBox prefHeight="200.0" prefWidth="40.0" />
+                        <VBox layoutX="40.0" prefHeight="200.0" prefWidth="80.0">
+                            <children>
+                                <Button mnemonicParsing="false" prefHeight="180.0" prefWidth="80.0" text="Player3" />
+                                <Slider prefHeight="20.0" prefWidth="80.0" />
+                            </children>
+                        </VBox>
+                        <VBox layoutX="120.0" layoutY="60.0" prefHeight="140.0" prefWidth="140.0">
+                            <children>
+                                <HBox prefHeight="70.0" prefWidth="140.0">
+                                    <children>
+                                        <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Ability1" />
+                                        <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Ability2" />
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="70.0" prefWidth="140.0">
+                                    <children>
+                                        <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Ability3" />
+                                        <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" text="Ability4" />
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </children>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </Pane>
+            </children>
+            <padding>
+                <Insets bottom="25.0" left="20.0" right="20.0" top="25.0" />
+            </padding>
+        </VBox>
+    </left>
+    <bottom>
+        <HBox prefHeight="200.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+    </bottom>
+    <right>
+        <HBox prefHeight="700.0" prefWidth="300.0" spacing="20.0" BorderPane.alignment="CENTER">
+            <children>
+                <VBox prefHeight="700.0" prefWidth="120.0" spacing="25.0">
+                    <children>
+                        <Pane prefHeight="200.0" prefWidth="120.0">
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                            <children>
+                                <VBox prefHeight="200.0" prefWidth="80.0">
+                                    <children>
+                                        <Button mnemonicParsing="false" prefHeight="180.0" prefWidth="80.0" text="Enemy1" />
+                                        <Slider prefHeight="20.0" prefWidth="80.0" />
+                                    </children>
+                                </VBox>
+                                <VBox layoutX="80.0" prefHeight="200.0" prefWidth="40.0" />
+                            </children>
+                        </Pane>
+                        <Pane prefHeight="200.0" prefWidth="120.0">
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                            <children>
+                                <VBox prefHeight="200.0" prefWidth="80.0">
+                                    <children>
+                                        <Button mnemonicParsing="false" prefHeight="180.0" prefWidth="80.0" text="Enemy2" />
+                                        <Slider prefHeight="20.0" prefWidth="80.0" />
+                                    </children>
+                                </VBox>
+                                <VBox layoutX="80.0" prefHeight="200.0" prefWidth="40.0" />
+                            </children>
+                        </Pane>
+                        <Pane prefHeight="200.0" prefWidth="120.0">
+                            <VBox.margin>
+                                <Insets />
+                            </VBox.margin>
+                            <children>
+                                <VBox prefHeight="200.0" prefWidth="80.0">
+                                    <children>
+                                        <Button mnemonicParsing="false" prefHeight="180.0" prefWidth="80.0" text="Enemy3" />
+                                        <Slider prefHeight="20.0" prefWidth="80.0" />
+                                    </children>
+                                </VBox>
+                                <VBox layoutX="80.0" prefHeight="200.0" prefWidth="40.0" />
+                            </children>
+                        </Pane>
+                    </children>
+                    <HBox.margin>
+                        <Insets />
+                    </HBox.margin>
+                </VBox>
+                <VBox prefHeight="700.0" prefWidth="120.0">
+                    <HBox.margin>
+                        <Insets />
+                    </HBox.margin>
+                </VBox>
+            </children>
+            <padding>
+                <Insets bottom="25.0" left="20.0" right="20.0" top="25.0" />
+            </padding>
+        </HBox>
+    </right>
+   <center>
+      <VBox prefHeight="700.0" prefWidth="1000.0" spacing="20.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Region prefHeight="100.0" prefWidth="200.0" />
+                  <HBox prefHeight="100.0" prefWidth="600.0" spacing="50.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="R" />
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="B" />
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="G" />
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="Y" />
+                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="M" />
+                     </children>
+                     <padding>
+                        <Insets bottom="20.0" left="50.0" right="50.0" top="20.0" />
+                     </padding>
+                  </HBox>
+                  <Region prefHeight="100.0" prefWidth="200.0" />
+               </children>
+            </HBox>
+            <Pane prefHeight="555.0" prefWidth="1000.0" />
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets bottom="20.0" />
+         </padding>
+      </VBox>
+   </center>
+</BorderPane>
